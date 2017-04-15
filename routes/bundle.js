@@ -5,7 +5,7 @@ var b = browserify();
 var dogrSrc;
 
 b.add('./src/dogr.js');
-b.bundle(null, function(err, src){
+b.bundle(function(err, src){
     dogrSrc = src;
 });
 

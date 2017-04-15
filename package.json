@@ -23,9 +23,11 @@
   "dependencies": {
     "express": "~3.4.7",
     "express3-handlebars": "~0.5.0",
-    "browserify": "~3.12.0",
-    "canvas": "~1.1.2",
-    "newrelic": "~1.2.0",
-    "request": "~2.30.0"
+    "browserify": "~14.3.0",
+    "canvas": "~1.6.5",
+    "request": "~2.81.0"
+  },
+  "scripts": {
+      "start": "node app.js"
   }
 }

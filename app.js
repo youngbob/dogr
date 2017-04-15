@@ -1,7 +1,5 @@
 'use strict';
 
-require('newrelic');
-
 var express = require('express');
 var app = express();
 var exphbs  = require('express3-handlebars');
